@@ -32,7 +32,7 @@ Split: train/ and validation/ folders
 https://www.kaggle.com/datasets/pmigdal/alien-vs-predator-images
 
 ⚙️ Training Details
-ComponentDetailBase ModelResNet50 (ImageNet weights, frozen)OptimizerAdam (lr=0.001)LossCategorical CrossentropyInput Size224 × 224 × 3Epochs10AugmentationShear, Zoom, Horizontal Flip
+ComponentDetailBase ModelResNet50 (ImageNet weights, frozen)OptimizerAdam (lr=0.01)LossCategorical CrossentropyInput Size224 × 224 × 3Epochs10AugmentationShear, Zoom, Horizontal Flip
 Callbacks used during training:
 ModelCheckpoint — saves best model by val_accuracy
 EarlyStopping — stops if no improvement for 30 epochs
