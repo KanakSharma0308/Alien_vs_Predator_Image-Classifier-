@@ -41,7 +41,7 @@ ReduceLROnPlateau — reduces LR by 10x on plateau
 
 🖥️ How to Run
 bash# 1. Clone the repo
-git clone https://github.com/yourusername/alien-vs-predator-classifier.git
+git clone https://github.com/KanakSharma0308/alien-vs-predator-classifier.git
 cd alien-vs-predator-classifier
 
 # 2. Install dependencies
